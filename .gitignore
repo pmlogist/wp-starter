@@ -1,0 +1,23 @@
+dist
+dist-ssr
+vendor
+*.local
+.direnv
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+src/twentytwentyone
+src/twentytwentythree
+src/twentytwentythree
+src/twentytwentytwo
+twentytwentythree
+twentytwentytwo
+twentytwentyone

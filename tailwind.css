@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  @apply scroll-smooth;
+}
+
+.content > * > a {
+  @apply text-blue-400 hover:text-blue-700;
+}
+
+.content > blockquote {
+  @apply p-4 my-4 bg-gray-50 border-l-4 border-gray-300;
+}
+
+.content > blockquote > p {
+  @apply text-lg italic font-medium leading-relaxed text-gray-900;
+}
+
+.content > h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-semibold my-4;
+}
+
+.content > h2 {
+  @apply font-bold text-4xl mb-8;
+}
+
+.content > h3 {
+  @apply font-bold text-3xl mb-8;
+}
+
+.content > h4 {
+  @apply font-bold text-2xl mb-8;
+}
+
+.content > h5 {
+  @apply font-bold text-xl mb-8;
+}
+
+.content > h6 {
+  @apply font-bold text-lg mb-8;
+}
+
+.content > p {
+  @apply font-sans my-4;
+}
